@@ -3,22 +3,6 @@
   <component name="GBrowserService"><![CDATA[{
   "history": [
     {
-      "name": "GBrowser - IntelliJ IDEs Plugin | Marketplace",
-      "url": "https://plugins.jetbrains.com/plugin/14458-gbrowser"
-    },
-    {
-      "name": "Learn to Code | Boot.dev",
-      "url": "https://www.boot.dev/"
-    },
-    {
-      "name": "Sign in to GitHub · GitHub",
-      "url": "https://github.com/login?client_id=Iv1.2fb0cfff4520ee51&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3DIv1.2fb0cfff4520ee51%26redirect_uri%3Dhttps%253A%252F%252Fwww.boot.dev%252F%253Fsignin%253Dgithub%26response_type%3Dcode%26state%3D7xJsVTXmgO6warkEYlKIaxjIGmIQxLiP2rw_Tb0hcyM"
-    },
-    {
-      "name": "accounts.google.com",
-      "url": "https://github.com/sessions/social/google/initiate?return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3DIv1.2fb0cfff4520ee51%26redirect_uri%3Dhttps%253A%252F%252Fwww.boot.dev%252F%253Fsignin%253Dgithub%26response_type%3Dcode%26state%3D7xJsVTXmgO6warkEYlKIaxjIGmIQxLiP2rw_Tb0hcyM&disable_signup=false"
-    },
-    {
       "name": "Sign in - Google Accounts",
       "url": "https://accounts.google.com/v3/signin/accountchooser?client_id=1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com&code_challenge=xTPio2hoJYR6GsrVYOk8l2VU3CLbTuPFtV_-NzymweY&code_challenge_method=S256&nonce=716750d8e52271a4302b79fdcf02e881&prompt=select_account&redirect_uri=https%3A%2F%2Fgithub.com%2Fsessions%2Fsocial%2Fgoogle%2Fcallback&response_type=code&scope=openid+email+profile&state=0e57b59b4e35d72fe33dd934921334d4&dsh=S589955941%3A1786615209080037&o2v=2&service=lso&flowName=GeneralOAuthFlow&opparams=%253F&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPQ9_nY8fpNTXiJlSuqwhv6jfA540CQPv5w3SdA3OWUsKxHgE-36innJBJ2vJ72_eVnG0FjxGmbI2i3vvhTyNAP_HfX3TgMMDVp-CaTV1iLH9R3Qxk4jW388gpA_hapd9h6JdKOta2w9TJPX2wPSTV4eAm2q3N0JiaRMzBIOj0-2w7TJm8uKWNqCHiYfhFyh-lS5vaRA_yuLW_J_mHoogCyafEFQ8BUU4tBqpZ8Nf2h5A5ON0xhUkqYjW0K-MLp4WoJzuu-NHuTR-zj2guAfNz1UUQVcKmTEZmPgS8mGDHTPzr4-t4WnAEBxT6s-JZNuVuzDAhI2mO2SUPmWwmNznhfNU1ZUWlsdc9aH_gUHopt3Z4YJMldB3TWmUkbsIeLMCZGUfVg1p-9P_LMvV2bBosvZQwUhz_BerD2qmXB2qHdrpqYNadSmk3JvfiaNFZ9Ky-zSNoL7RgEJOvZJ2dGGkYqlYndjQ%26flowName%3DGeneralOAuthFlow%26as%3DS589955941%253A1786615209080037%26client_id%3D1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fgithub.com"
     },
@@ -73,6 +57,30 @@
     {
       "name": "Learn Pub/Sub in RabbitMQ and Go: Decoupling | Boot.dev",
       "url": "https://www.boot.dev/lessons/711d9db8-80b0-43f9-a7e9-9bc1338f8161"
+    },
+    {
+      "name": "Dashboard | Boot.dev",
+      "url": "https://www.boot.dev/dashboard?modal=boss"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Client REPL | Boot.dev",
+      "url": "https://www.boot.dev/lessons/adc1702c-904e-45da-b53e-18036d11c09f"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Sync vs. Async | Boot.dev",
+      "url": "https://www.boot.dev/lessons/e0d192cf-9c39-4af3-954c-f44c294d2ccb"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Topic Exchange | Boot.dev",
+      "url": "https://www.boot.dev/lessons/98b655ca-255b-4a09-b066-d86f54a56495"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Durable | Boot.dev",
+      "url": "https://www.boot.dev/lessons/4ec3a8b2-1098-4af4-8439-7c6c87677d37"
+    },
+    {
+      "name": "Frag's Portfolio | Boot.dev",
+      "url": "https://www.boot.dev/u/rustfrog"
     }
   ]
 }]]></component>

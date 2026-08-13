@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/bootdotdev/learn-pub-sub-starter/internal/gamelogic"
 	"github.com/bootdotdev/learn-pub-sub-starter/internal/pubsub"
 	"github.com/bootdotdev/learn-pub-sub-starter/internal/routing"
 	"github.com/rabbitmq/amqp091-go"
@@ -37,11 +38,32 @@ func main() {
 
 	exchange := routing.ExchangePerilDirect
 	key := routing.PauseKey
-	state := routing.PlayingState{
-		IsPaused: true,
-	}
+	gamelogic.PrintServerHelp()
 
-	if err := pubsub.PublishJSON(ch, exchange, key, state); err != nil {
-		log.Fatalf("err publishing: %v", err)
+outer:
+	for {
+		words := gamelogic.GetInput()
+		if len(words) == 0 {
+			continue
+		}
+		switch words[0] {
+		case "pause":
+			fmt.Println("Sending pause message")
+			err := pubsub.PublishJSON(ch, exchange, key, routing.PlayingState{IsPaused: true})
+			if err != nil {
+				log.Printf("could not publish pause message: %v", err)
+			}
+		case "resume":
+			fmt.Println("Sending resume message")
+			err := pubsub.PublishJSON(ch, exchange, key, routing.PlayingState{IsPaused: false})
+			if err != nil {
+				log.Printf("could not publish resume message: %v", err)
+			}
+		case "quit":
+			fmt.Println("Exiting...")
+			break outer
+		default:
+			fmt.Println("Command not recognized")
+		}
 	}
 }

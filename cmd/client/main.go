@@ -45,8 +45,39 @@ func main() {
 
 	fmt.Println("Queue declared and bound:", queue.Name)
 
+	gameState := gamelogic.NewGameState(user)
+outer:
+	for {
+		words := gamelogic.GetInput()
+		if len(words) == 0 {
+			continue
+		}
+
+		switch words[0] {
+		case "spawn":
+			if err := gameState.CommandSpawn(words); err != nil {
+				fmt.Println(err)
+			}
+		case "move":
+			army, err := gameState.CommandMove(words)
+			if err != nil {
+				fmt.Println(err)
+			}
+			fmt.Printf("move %s\n", army.ToLocation)
+		case "status":
+			gameState.CommandStatus()
+		case "help":
+			gamelogic.PrintClientHelp()
+		case "quit":
+			gamelogic.PrintQuit()
+			break outer
+		default:
+			fmt.Println("Not recognized")
+		}
+
+	}
+
 	sigChan := make(chan os.Signal, 1)
 	signal.Notify(sigChan, os.Interrupt)
 	<-sigChan
-
 }
