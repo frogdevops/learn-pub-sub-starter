@@ -1,51 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="GBrowserService"><![CDATA[{
+  "defaultHomePage": "boot.dev",
   "history": [
-    {
-      "name": "Sign in - Google Accounts",
-      "url": "https://accounts.google.com/v3/signin/accountchooser?client_id=1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com&code_challenge=xTPio2hoJYR6GsrVYOk8l2VU3CLbTuPFtV_-NzymweY&code_challenge_method=S256&nonce=716750d8e52271a4302b79fdcf02e881&prompt=select_account&redirect_uri=https%3A%2F%2Fgithub.com%2Fsessions%2Fsocial%2Fgoogle%2Fcallback&response_type=code&scope=openid+email+profile&state=0e57b59b4e35d72fe33dd934921334d4&dsh=S589955941%3A1786615209080037&o2v=2&service=lso&flowName=GeneralOAuthFlow&opparams=%253F&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPQ9_nY8fpNTXiJlSuqwhv6jfA540CQPv5w3SdA3OWUsKxHgE-36innJBJ2vJ72_eVnG0FjxGmbI2i3vvhTyNAP_HfX3TgMMDVp-CaTV1iLH9R3Qxk4jW388gpA_hapd9h6JdKOta2w9TJPX2wPSTV4eAm2q3N0JiaRMzBIOj0-2w7TJm8uKWNqCHiYfhFyh-lS5vaRA_yuLW_J_mHoogCyafEFQ8BUU4tBqpZ8Nf2h5A5ON0xhUkqYjW0K-MLp4WoJzuu-NHuTR-zj2guAfNz1UUQVcKmTEZmPgS8mGDHTPzr4-t4WnAEBxT6s-JZNuVuzDAhI2mO2SUPmWwmNznhfNU1ZUWlsdc9aH_gUHopt3Z4YJMldB3TWmUkbsIeLMCZGUfVg1p-9P_LMvV2bBosvZQwUhz_BerD2qmXB2qHdrpqYNadSmk3JvfiaNFZ9Ky-zSNoL7RgEJOvZJ2dGGkYqlYndjQ%26flowName%3DGeneralOAuthFlow%26as%3DS589955941%253A1786615209080037%26client_id%3D1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fgithub.com"
-    },
-    {
-      "name": "Sign in to continue to GitHub",
-      "url": "https://accounts.google.com/v3/signin/identifier?app_domain=https%3A%2F%2Fgithub.com&client_id=1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com&code_challenge=xTPio2hoJYR6GsrVYOk8l2VU3CLbTuPFtV_-NzymweY&code_challenge_method=S256&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPQ9_nY8fpNTXiJlSuqwhv6jfA540CQPv5w3SdA3OWUsKxHgE-36innJBJ2vJ72_eVnG0FjxGmbI2i3vvhTyNAP_HfX3TgMMDVp-CaTV1iLH9R3Qxk4jW388gpA_hapd9h6JdKOta2w9TJPX2wPSTV4eAm2q3N0JiaRMzBIOj0-2w7TJm8uKWNqCHiYfhFyh-lS5vaRA_yuLW_J_mHoogCyafEFQ8BUU4tBqpZ8Nf2h5A5ON0xhUkqYjW0K-MLp4WoJzuu-NHuTR-zj2guAfNz1UUQVcKmTEZmPgS8mGDHTPzr4-t4WnAEBxT6s-JZNuVuzDAhI2mO2SUPmWwmNznhfNU1ZUWlsdc9aH_gUHopt3Z4YJMldB3TWmUkbsIeLMCZGUfVg1p-9P_LMvV2bBosvZQwUhz_BerD2qmXB2qHdrpqYNadSmk3JvfiaNFZ9Ky-zSNoL7RgEJOvZJ2dGGkYqlYndjQ%26flowName%3DGeneralOAuthFlow%26as%3DS589955941%253A1786615209080037%26client_id%3D1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S589955941%3A1786615209080037&flowName=GeneralOAuthFlow&nonce=716750d8e52271a4302b79fdcf02e881&o2v=2&opparams=%253F&prompt=select_account&redirect_uri=https%3A%2F%2Fgithub.com%2Fsessions%2Fsocial%2Fgoogle%2Fcallback&response_type=code&scope=openid%20email%20profile&service=lso&state=0e57b59b4e35d72fe33dd934921334d4"
-    },
-    {
-      "name": "Welcome",
-      "url": "https://accounts.google.com/v3/signin/challenge/pwd?TL=AE6FvyZE3t5lGdh_13RRg6MCUxym4IPlzV5sTpxbiaq5kbi9dfcI_a-5rGSHupJi&app_domain=https%3A%2F%2Fgithub.com&checkConnection=youtube%3A565&checkedDomains=youtube&cid=1&client_id=1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com&code_challenge=xTPio2hoJYR6GsrVYOk8l2VU3CLbTuPFtV_-NzymweY&code_challenge_method=S256&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPQ9_nY8fpNTXiJlSuqwhv6jfA540CQPv5w3SdA3OWUsKxHgE-36innJBJ2vJ72_eVnG0FjxGmbI2i3vvhTyNAP_HfX3TgMMDVp-CaTV1iLH9R3Qxk4jW388gpA_hapd9h6JdKOta2w9TJPX2wPSTV4eAm2q3N0JiaRMzBIOj0-2w7TJm8uKWNqCHiYfhFyh-lS5vaRA_yuLW_J_mHoogCyafEFQ8BUU4tBqpZ8Nf2h5A5ON0xhUkqYjW0K-MLp4WoJzuu-NHuTR-zj2guAfNz1UUQVcKmTEZmPgS8mGDHTPzr4-t4WnAEBxT6s-JZNuVuzDAhI2mO2SUPmWwmNznhfNU1ZUWlsdc9aH_gUHopt3Z4YJMldB3TWmUkbsIeLMCZGUfVg1p-9P_LMvV2bBosvZQwUhz_BerD2qmXB2qHdrpqYNadSmk3JvfiaNFZ9Ky-zSNoL7RgEJOvZJ2dGGkYqlYndjQ%26flowName%3DGeneralOAuthFlow%26as%3DS589955941%253A1786615209080037%26client_id%3D1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S589955941%3A1786615209080037&flowName=GeneralOAuthFlow&nonce=716750d8e52271a4302b79fdcf02e881&o2v=2&opparams=%253F&prompt=select_account&pstMsg=1&redirect_uri=https%3A%2F%2Fgithub.com%2Fsessions%2Fsocial%2Fgoogle%2Fcallback&response_type=code&scope=openid%20email%20profile&service=lso&state=0e57b59b4e35d72fe33dd934921334d4"
-    },
-    {
-      "name": "2-Step Verification To help keep your account safe, Google wants to make sure it’s really you trying to sign in",
-      "url": "https://accounts.google.com/v3/signin/challenge/selection?TL=AE6FvyZE3t5lGdh_13RRg6MCUxym4IPlzV5sTpxbiaq5kbi9dfcI_a-5rGSHupJi&app_domain=https%3A%2F%2Fgithub.com&checkConnection=youtube%3A565&checkedDomains=youtube&client_id=1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com&code_challenge=xTPio2hoJYR6GsrVYOk8l2VU3CLbTuPFtV_-NzymweY&code_challenge_method=S256&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPQ9_nY8fpNTXiJlSuqwhv6jfA540CQPv5w3SdA3OWUsKxHgE-36innJBJ2vJ72_eVnG0FjxGmbI2i3vvhTyNAP_HfX3TgMMDVp-CaTV1iLH9R3Qxk4jW388gpA_hapd9h6JdKOta2w9TJPX2wPSTV4eAm2q3N0JiaRMzBIOj0-2w7TJm8uKWNqCHiYfhFyh-lS5vaRA_yuLW_J_mHoogCyafEFQ8BUU4tBqpZ8Nf2h5A5ON0xhUkqYjW0K-MLp4WoJzuu-NHuTR-zj2guAfNz1UUQVcKmTEZmPgS8mGDHTPzr4-t4WnAEBxT6s-JZNuVuzDAhI2mO2SUPmWwmNznhfNU1ZUWlsdc9aH_gUHopt3Z4YJMldB3TWmUkbsIeLMCZGUfVg1p-9P_LMvV2bBosvZQwUhz_BerD2qmXB2qHdrpqYNadSmk3JvfiaNFZ9Ky-zSNoL7RgEJOvZJ2dGGkYqlYndjQ%26flowName%3DGeneralOAuthFlow%26as%3DS589955941%253A1786615209080037%26client_id%3D1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S589955941%3A1786615209080037&flowName=GeneralOAuthFlow&lid=2&nonce=716750d8e52271a4302b79fdcf02e881&o2v=2&opparams=%253F&prompt=select_account&pstMsg=1&redirect_uri=https%3A%2F%2Fgithub.com%2Fsessions%2Fsocial%2Fgoogle%2Fcallback&response_type=code&scope=openid%20email%20profile&service=lso&state=0e57b59b4e35d72fe33dd934921334d4"
-    },
-    {
-      "name": "2-Step Verification To help keep your account safe, Google wants to make sure it’s really you trying to sign in",
-      "url": "https://accounts.google.com/v3/signin/challenge/ipp/collect?TL=AE6FvyZE3t5lGdh_13RRg6MCUxym4IPlzV5sTpxbiaq5kbi9dfcI_a-5rGSHupJi&app_domain=https%3A%2F%2Fgithub.com&checkConnection=youtube%3A565&checkedDomains=youtube&cid=4&client_id=1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com&code_challenge=xTPio2hoJYR6GsrVYOk8l2VU3CLbTuPFtV_-NzymweY&code_challenge_method=S256&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hAPQ9_nY8fpNTXiJlSuqwhv6jfA540CQPv5w3SdA3OWUsKxHgE-36innJBJ2vJ72_eVnG0FjxGmbI2i3vvhTyNAP_HfX3TgMMDVp-CaTV1iLH9R3Qxk4jW388gpA_hapd9h6JdKOta2w9TJPX2wPSTV4eAm2q3N0JiaRMzBIOj0-2w7TJm8uKWNqCHiYfhFyh-lS5vaRA_yuLW_J_mHoogCyafEFQ8BUU4tBqpZ8Nf2h5A5ON0xhUkqYjW0K-MLp4WoJzuu-NHuTR-zj2guAfNz1UUQVcKmTEZmPgS8mGDHTPzr4-t4WnAEBxT6s-JZNuVuzDAhI2mO2SUPmWwmNznhfNU1ZUWlsdc9aH_gUHopt3Z4YJMldB3TWmUkbsIeLMCZGUfVg1p-9P_LMvV2bBosvZQwUhz_BerD2qmXB2qHdrpqYNadSmk3JvfiaNFZ9Ky-zSNoL7RgEJOvZJ2dGGkYqlYndjQ%26flowName%3DGeneralOAuthFlow%26as%3DS589955941%253A1786615209080037%26client_id%3D1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&dsh=S589955941%3A1786615209080037&flowName=GeneralOAuthFlow&nonce=716750d8e52271a4302b79fdcf02e881&o2v=2&opparams=%253F&prompt=select_account&pstMsg=1&redirect_uri=https%3A%2F%2Fgithub.com%2Fsessions%2Fsocial%2Fgoogle%2Fcallback&response_type=code&scope=openid%20email%20profile&service=lso&state=0e57b59b4e35d72fe33dd934921334d4"
-    },
-    {
-      "name": "Sign in to GitHub · GitHub",
-      "url": "https://github.com/login?client_id=Iv1.2fb0cfff4520ee51&return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3DIv1.2fb0cfff4520ee51%26redirect_uri%3Dhttps%253A%252F%252Fwww.boot.dev%252F%253Fsignin%253Dgithub%26response_type%3Dcode%26state%3DJofy9MLdL9we5K7z6jdFTBltezIKJnJ_1EvObVDNNQY"
-    },
-    {
-      "name": "Redirecting to Google",
-      "url": "https://github.com/sessions/social/google/initiate?return_to=%2Flogin%2Foauth%2Fauthorize%3Fclient_id%3DIv1.2fb0cfff4520ee51%26redirect_uri%3Dhttps%253A%252F%252Fwww.boot.dev%252F%253Fsignin%253Dgithub%26response_type%3Dcode%26state%3DJofy9MLdL9we5K7z6jdFTBltezIKJnJ_1EvObVDNNQY&disable_signup=false"
-    },
-    {
-      "name": "Sign in - Google Accounts",
-      "url": "https://accounts.google.com/v3/signin/accountchooser?client_id=1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com&code_challenge=kS3Yrtv1MO8COT-rHUZH5wdGlid6Sb1BY2PzyUBnVAg&code_challenge_method=S256&nonce=24a5d9089b02eb010a50939cc0e894eb&prompt=select_account&redirect_uri=https%3A%2F%2Fgithub.com%2Fsessions%2Fsocial%2Fgoogle%2Fcallback&response_type=code&scope=openid+email+profile&state=098f1fa7605b7761da65a642315fe22b&dsh=S-318106749%3A1786615374606702&o2v=2&service=lso&flowName=GeneralOAuthFlow&opparams=%253F&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANOvK6d_h2pLDq15s_fHwuDxhJkKOXOIAJGZSq7lc-uH9PVCJsce0qCWDD_rJkVPswUGIHPNJEDsxbi_4PXxLOsC_sww1gY-kN1y8Jz9wcaTVn4VPdBKmQiKGMOOrXlscSisfe7HKdzT5zMGSuoGjvjDdOE5W2v1XonVBgbG_17il4DR9kPWMUwLUVCo7FbVZ_ypvYSresxV5e7BFwEY0cbaazjdKm3hTsH7Od0MlJFShcnpQavHWUGLQEY19_BBoxnglXR5TdBGsQPh0c939CMrlodOtnATEN7k1OT-zxZF7PV1FwVVXpdCtBjNIYDNokK0v-3TZCBNDacI7pRImzkjJhTz2fJso12RjoLx5c4d7QUKHyqhe5EE6oBRMLBB_rnuzjQRUkVTxTq_thMOg0jRvidJWCdDKHUZU2FZGHxIuubve6YDmghZdu2dClnQ4-E16xvYlybLbWpJRMqZjQl7qa8jQ%26flowName%3DGeneralOAuthFlow%26as%3DS-318106749%253A1786615374606702%26client_id%3D1078992815106-brpsupgvhheqg35tupphbh0qk9c32nq8.apps.googleusercontent.com%26requestPath%3D%252Fsignin%252Foauth%252Fconsent%23&app_domain=https%3A%2F%2Fgithub.com"
-    },
-    {
-      "name": "Two-factor authentication · GitHub",
-      "url": "https://github.com/sessions/two-factor/app"
-    },
-    {
-      "name": "OAuth application authorized",
-      "url": "https://github.com/login/oauth/authorize?client_id=Iv1.2fb0cfff4520ee51&redirect_uri=https%3A%2F%2Fwww.boot.dev%2F%3Fsignin%3Dgithub&response_type=code&state=Jofy9MLdL9we5K7z6jdFTBltezIKJnJ_1EvObVDNNQY"
-    },
-    {
-      "name": "Learn to Code | Boot.dev",
-      "url": "https://www.boot.dev/?signin=github&code=ab55365db550189dde08&state=Jofy9MLdL9we5K7z6jdFTBltezIKJnJ_1EvObVDNNQY"
-    },
     {
       "name": "Dashboard | Boot.dev",
       "url": "https://www.boot.dev/dashboard"
@@ -81,6 +38,50 @@
     {
       "name": "Frag's Portfolio | Boot.dev",
       "url": "https://www.boot.dev/u/rustfrog"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Consumers | Boot.dev",
+      "url": "https://www.boot.dev/lessons/ad914ee7-6bce-4db1-8d61-3d51248f6966"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Consumers | Boot.dev",
+      "url": "https://www.boot.dev/lessons/ad914ee7-6bce-4db1-8d61-3d51248f6966?modal=quest-board"
+    },
+    {
+      "name": "GBrowser - IntelliJ IDEs Plugin | Marketplace",
+      "url": "https://plugins.jetbrains.com/plugin/14458-gbrowser"
+    },
+    {
+      "name": "Leaderboard | Boot.dev",
+      "url": "https://www.boot.dev/leaderboard"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Multi Consumers | Boot.dev",
+      "url": "https://www.boot.dev/lessons/7fd12e64-df31-4df0-a252-5879d4a13b3c"
+    },
+    {
+      "name": "Eman's Portfolio | Boot.dev",
+      "url": "https://www.boot.dev/u/eman-saleh"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Routing Patterns | Boot.dev",
+      "url": "https://www.boot.dev/lessons/d6477d7f-5f10-425b-a754-58c44609b1c4"
+    },
+    {
+      "name": "",
+      "url": "boot.dev"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Naming | Boot.dev",
+      "url": "https://www.boot.dev/lessons/a92f7e2c-78ce-4dee-9149-7d6f299592ad"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Dead Letter | Boot.dev",
+      "url": "https://www.boot.dev/lessons/1a81f164-aa4f-4f66-a481-fac6a99e1eba"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Dead Letter | Boot.dev",
+      "url": "https://www.boot.dev/lessons/1a81f164-aa4f-4f66-a481-fac6a99e1eba?modal=recruit-a-friend"
     }
   ]
 }]]></component>

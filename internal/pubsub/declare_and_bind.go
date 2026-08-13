@@ -2,7 +2,6 @@ package pubsub
 
 import (
 	"fmt"
-	"log"
 
 	amqp "github.com/rabbitmq/amqp091-go"
 )
@@ -23,14 +22,8 @@ func DeclareAndBind(
 ) (*amqp.Channel, amqp.Queue, error) {
 	ch, err := conn.Channel()
 	if err != nil {
-		log.Fatalf("could not create a channel: %v", err)
+		return nil, amqp.Queue{}, err
 	}
-	defer func(ch *amqp.Channel) {
-		err := ch.Close()
-		if err != nil {
-			log.Fatalf("err closing connection: %s", err)
-		}
-	}(ch)
 	var durable bool
 	var autoDelete bool
 	var exclusive bool
@@ -48,6 +41,9 @@ func DeclareAndBind(
 		return nil, amqp.Queue{}, fmt.Errorf("unknown queue type: %v", queueType)
 	}
 	queue, err := ch.QueueDeclare(queueName, durable, autoDelete, exclusive, false, nil)
+	if err != nil {
+		return nil, amqp.Queue{}, err
+	}
 	if err := ch.QueueBind(queue.Name, key, exchange, false, nil); err != nil {
 		return nil, amqp.Queue{}, err
 	}
