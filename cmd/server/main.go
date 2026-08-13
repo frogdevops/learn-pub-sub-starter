@@ -40,6 +40,17 @@ func main() {
 	key := routing.PauseKey
 	gamelogic.PrintServerHelp()
 
+	_, _, err = pubsub.DeclareAndBind(
+		conn,
+		routing.ExchangePerilTopic,
+		"game_logs",
+		routing.GameLogSlug+".*",
+		pubsub.SimpleQueueType(0),
+	)
+	if err != nil {
+		log.Fatalf("could not declare game_logs queue: %v", err)
+	}
+
 outer:
 	for {
 		words := gamelogic.GetInput()
