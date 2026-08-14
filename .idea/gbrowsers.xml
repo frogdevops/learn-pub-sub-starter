@@ -4,14 +4,6 @@
   "defaultHomePage": "boot.dev",
   "history": [
     {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Decoupling | Boot.dev",
-      "url": "https://www.boot.dev/lessons/711d9db8-80b0-43f9-a7e9-9bc1338f8161"
-    },
-    {
-      "name": "Dashboard | Boot.dev",
-      "url": "https://www.boot.dev/dashboard?modal=boss"
-    },
-    {
       "name": "Learn Pub/Sub in RabbitMQ and Go: Client REPL | Boot.dev",
       "url": "https://www.boot.dev/lessons/adc1702c-904e-45da-b53e-18036d11c09f"
     },
@@ -82,6 +74,14 @@
     {
       "name": "Learn Pub/Sub in RabbitMQ and Go: Dead Letter Queue | Boot.dev",
       "url": "https://www.boot.dev/lessons/c4838e82-2f2b-4ab7-93fc-2482d203c5a8"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Exact Delivery | Boot.dev",
+      "url": "https://www.boot.dev/lessons/c6fc95e8-eba8-4d4a-9b97-e98c43b65a89"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Dead Letter Queue | Boot.dev",
+      "url": "https://www.boot.dev/lessons/c4838e82-2f2b-4ab7-93fc-2482d203c5a8?modal=shop"
     }
   ]
 }]]></component>

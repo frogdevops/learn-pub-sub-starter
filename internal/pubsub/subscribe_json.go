@@ -20,7 +20,7 @@ func SubscribeJSON[T any](
 	exchange,
 	queueName,
 	key string,
-	queueType SimpleQueueType, // Bitch another kind of enum
+	queueType SimpleQueueType,
 	handler func(T) AckType,
 ) error {
 	ch, queue, err := DeclareAndBind(conn, exchange, queueName, key, queueType)
@@ -53,13 +53,22 @@ func SubscribeJSON[T any](
 			ackType := handler(target)
 			switch ackType {
 			case Ack:
-				delivery.Ack(false)
+				err := delivery.Ack(false)
+				if err != nil {
+					return
+				}
 				log.Println("Acked message")
 			case NackDiscard:
-				delivery.Nack(false, false)
+				err := delivery.Nack(false, false)
+				if err != nil {
+					return
+				}
 				log.Println("NackDiscard: message discarded")
 			case NackRequeue:
-				delivery.Nack(false, true)
+				err := delivery.Nack(false, true)
+				if err != nil {
+					return
+				}
 				log.Println("NackRequeue: message requeued")
 			}
 		}
