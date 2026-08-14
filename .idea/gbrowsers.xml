@@ -4,14 +4,6 @@
   "defaultHomePage": "boot.dev",
   "history": [
     {
-      "name": "Dashboard | Boot.dev",
-      "url": "https://www.boot.dev/dashboard"
-    },
-    {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Transient Queues | Boot.dev",
-      "url": "https://www.boot.dev/lessons/eb3f3ef0-459e-4b36-a74c-f77d7b1b2bd6"
-    },
-    {
       "name": "Learn Pub/Sub in RabbitMQ and Go: Decoupling | Boot.dev",
       "url": "https://www.boot.dev/lessons/711d9db8-80b0-43f9-a7e9-9bc1338f8161"
     },
@@ -82,6 +74,14 @@
     {
       "name": "Learn Pub/Sub in RabbitMQ and Go: Dead Letter | Boot.dev",
       "url": "https://www.boot.dev/lessons/1a81f164-aa4f-4f66-a481-fac6a99e1eba?modal=recruit-a-friend"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Ack and Nack | Boot.dev",
+      "url": "https://www.boot.dev/lessons/130ebffe-19ee-492e-aad7-1e7c6df3b079"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Dead Letter Queue | Boot.dev",
+      "url": "https://www.boot.dev/lessons/c4838e82-2f2b-4ab7-93fc-2482d203c5a8"
     }
   ]
 }]]></component>
