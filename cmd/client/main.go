@@ -5,6 +5,8 @@ import (
 	"log"
 	"os"
 	"os/signal"
+	"strconv"
+	"time"
 
 	"github.com/bootdotdev/learn-pub-sub-starter/internal/gamelogic"
 	"github.com/bootdotdev/learn-pub-sub-starter/internal/pubsub"
@@ -48,33 +50,46 @@ func handlerMove(gs *gamelogic.GameState, ch *amqp.Channel) func(gamelogic.ArmyM
 	}
 }
 
-func handlerWar(gs *gamelogic.GameState) func(gamelogic.RecognitionOfWar) pubsub.AckType {
+func handlerWar(gs *gamelogic.GameState, ch *amqp.Channel) func(gamelogic.RecognitionOfWar) pubsub.AckType {
 	return func(rw gamelogic.RecognitionOfWar) pubsub.AckType {
-		// 1. Ensure prompt is reprinted after handling the message
 		defer fmt.Print("> ")
+		var message string
+		outcome, winner, loser := gs.HandleWar(rw)
 
-		// 2. Call HandleWar on gamestate with the message body
-		outcome, _, _ := gs.HandleWar(rw)
-
-		// 3. Handle outcomes
 		switch outcome {
 		case gamelogic.WarOutcomeNotInvolved:
-			// Requeue so another connected client can consume and test it
 			return pubsub.NackRequeue
 
 		case gamelogic.WarOutcomeNoUnits:
 			return pubsub.NackDiscard
 
 		case gamelogic.WarOutcomeOpponentWon,
-			gamelogic.WarOutcomeYouWon,
-			gamelogic.WarOutcomeDraw:
-			return pubsub.Ack
+			gamelogic.WarOutcomeYouWon:
+			message = fmt.Sprintf("%s won a war againts %s\n", winner, loser)
+
+		case gamelogic.WarOutcomeDraw:
+			message = fmt.Sprintf("A war between %s and %s resulted in draw", winner, loser)
 
 		default:
-			// Print error and discard for unrecognized outcomes
 			fmt.Println("Error: unrecognized war outcome")
 			return pubsub.NackDiscard
 		}
+
+		gameLog := routing.GameLog{
+			CurrentTime: time.Now(),
+			Message:     message,
+			Username:    gs.GetUsername(),
+		}
+		if err := pubsub.PublishGob(
+			ch,
+			routing.ExchangePerilTopic,
+			fmt.Sprintf("%s.%s", routing.GameLogSlug, gs.GetUsername()),
+			gameLog,
+		); err != nil {
+			fmt.Printf("Error publishing game log: %v\n", err)
+			return pubsub.NackRequeue
+		}
+		return pubsub.Ack
 	}
 }
 func main() {
@@ -133,7 +148,7 @@ func main() {
 		warQueueName,
 		warBindingKey,
 		pubsub.SimpleQueueType(0),
-		handlerWar(gameState),
+		handlerWar(gameState, publishCh),
 	); err != nil {
 		log.Fatalf("could not subscribe to war queue: %v", err)
 	}
@@ -172,6 +187,30 @@ outer:
 			gameState.CommandStatus()
 		case "help":
 			gamelogic.PrintClientHelp()
+		case "spam":
+			if len(words) < 2 {
+				fmt.Println("usage: spam <n>")
+				continue
+			}
+			n, err := strconv.Atoi(words[1])
+			if err != nil {
+				fmt.Println("invalid number:", err)
+				continue
+			}
+			for i := 0; i < n; i++ {
+				logs := gamelogic.GetMaliciousLog()
+				err := pubsub.PublishJSON(
+					publishCh,
+					routing.ExchangePerilTopic,
+					fmt.Sprintf("%s.%s", routing.GameLogSlug, user),
+					logs,
+				)
+				if err != nil {
+					log.Printf("could not publish malicious log: %v", err)
+				}
+			}
+			fmt.Printf("Published %d malicious logs\n", n)
+
 		case "quit":
 			gamelogic.PrintQuit()
 			break outer

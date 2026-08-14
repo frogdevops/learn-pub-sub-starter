@@ -4,58 +4,6 @@
   "defaultHomePage": "boot.dev",
   "history": [
     {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Client REPL | Boot.dev",
-      "url": "https://www.boot.dev/lessons/adc1702c-904e-45da-b53e-18036d11c09f"
-    },
-    {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Sync vs. Async | Boot.dev",
-      "url": "https://www.boot.dev/lessons/e0d192cf-9c39-4af3-954c-f44c294d2ccb"
-    },
-    {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Topic Exchange | Boot.dev",
-      "url": "https://www.boot.dev/lessons/98b655ca-255b-4a09-b066-d86f54a56495"
-    },
-    {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Durable | Boot.dev",
-      "url": "https://www.boot.dev/lessons/4ec3a8b2-1098-4af4-8439-7c6c87677d37"
-    },
-    {
-      "name": "Frag's Portfolio | Boot.dev",
-      "url": "https://www.boot.dev/u/rustfrog"
-    },
-    {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Consumers | Boot.dev",
-      "url": "https://www.boot.dev/lessons/ad914ee7-6bce-4db1-8d61-3d51248f6966"
-    },
-    {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Consumers | Boot.dev",
-      "url": "https://www.boot.dev/lessons/ad914ee7-6bce-4db1-8d61-3d51248f6966?modal=quest-board"
-    },
-    {
-      "name": "GBrowser - IntelliJ IDEs Plugin | Marketplace",
-      "url": "https://plugins.jetbrains.com/plugin/14458-gbrowser"
-    },
-    {
-      "name": "Leaderboard | Boot.dev",
-      "url": "https://www.boot.dev/leaderboard"
-    },
-    {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Multi Consumers | Boot.dev",
-      "url": "https://www.boot.dev/lessons/7fd12e64-df31-4df0-a252-5879d4a13b3c"
-    },
-    {
-      "name": "Eman's Portfolio | Boot.dev",
-      "url": "https://www.boot.dev/u/eman-saleh"
-    },
-    {
-      "name": "Learn Pub/Sub in RabbitMQ and Go: Routing Patterns | Boot.dev",
-      "url": "https://www.boot.dev/lessons/d6477d7f-5f10-425b-a754-58c44609b1c4"
-    },
-    {
-      "name": "",
-      "url": "boot.dev"
-    },
-    {
       "name": "Learn Pub/Sub in RabbitMQ and Go: Naming | Boot.dev",
       "url": "https://www.boot.dev/lessons/a92f7e2c-78ce-4dee-9149-7d6f299592ad"
     },
@@ -82,6 +30,58 @@
     {
       "name": "Learn Pub/Sub in RabbitMQ and Go: Dead Letter Queue | Boot.dev",
       "url": "https://www.boot.dev/lessons/c4838e82-2f2b-4ab7-93fc-2482d203c5a8?modal=shop"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Nack Requeue | Boot.dev",
+      "url": "https://www.boot.dev/lessons/2311b28b-fda0-4d40-9aed-0d265a2b9528"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Nack Requeue Fix | Boot.dev",
+      "url": "https://www.boot.dev/lessons/3c01db98-4af1-402b-ac6b-97e87190e149"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Data Serialization | Boot.dev",
+      "url": "https://www.boot.dev/lessons/d5112219-b374-4689-b4b4-a6110d570bd7"
+    },
+    {
+      "name": "Dashboard | Boot.dev",
+      "url": "https://www.boot.dev/dashboard"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Game Logs | Boot.dev",
+      "url": "https://www.boot.dev/lessons/275899a4-5787-4297-8507-5685789a5517"
+    },
+    {
+      "name": "www.boot.dev",
+      "url": "boot.dev"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Consume Logs | Boot.dev",
+      "url": "https://www.boot.dev/lessons/b36ffc0c-07df-49c9-a045-16a3a083caa5"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Schema | Boot.dev",
+      "url": "https://www.boot.dev/lessons/eb79d1d5-010f-483b-a7e9-9bb6a2da3d44"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Nodes and Clusters | Boot.dev",
+      "url": "https://www.boot.dev/lessons/67459e51-149b-4ad9-90ea-03acf289a224"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Backpressure | Boot.dev",
+      "url": "https://www.boot.dev/lessons/bfc997ab-3a2d-4903-96b7-063926c33264"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Healthy Queues Are Empty | Boot.dev",
+      "url": "https://www.boot.dev/lessons/e05c9513-f5ba-4216-9181-c065ae73808f"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Prefetch | Boot.dev",
+      "url": "https://www.boot.dev/lessons/e1e10f9d-beda-4d0e-b948-a7ab800fb936"
+    },
+    {
+      "name": "Learn Pub/Sub in RabbitMQ and Go: Quorum Queues | Boot.dev",
+      "url": "https://www.boot.dev/lessons/cc5f83d0-b6b1-430f-9776-1d520152af28"
     }
   ]
 }]]></component>
